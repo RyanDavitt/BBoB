@@ -1,0 +1,2 @@
+Back a bmp set and place it in a folder in here. Then, in a cmd prompt in the "WoodrowBigBlinkyBox" folder,
+type "BMP2RLE.exe -dir " followed by the name of the folder. That'll generate your .h file!
