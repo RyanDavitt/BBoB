@@ -31,14 +31,12 @@
 #include "pac.h"
 #include "pacman.h"
 #include "banners.h"
-//#include "Ryan.h"
 #include "Mario.h"
 #include "FRC2.h"
 #include "_5242.h"
 #include "DeepSpace.h"
 #include "MegaMan.h"
 #include "FIRST.h"
-#include "Kris.h"
 #include "MarioPwrup.h"
 #include "Robot.h"
 #include "Tetris.h"
@@ -533,17 +531,6 @@ void FIRST0(){
     ShowImage(FIRST_ImageInfo, FIRST_8, 0, 0, NO_FLIP_X,NO_FLIP_Y, NO_SWAP_XY, YES_FLIP_ALTERNATE);
     delay(3000);
   }
-}
-
-void Kris(){
-  ShowImage(Kris_ImageInfo, KRIS_1, 0, 0, NO_FLIP_X,NO_FLIP_Y, NO_SWAP_XY, YES_FLIP_ALTERNATE);
-  delay(1000);
-  ShowImage(Kris_ImageInfo, KRIS_2, 0, 0, NO_FLIP_X,NO_FLIP_Y, NO_SWAP_XY, YES_FLIP_ALTERNATE);
-  delay(1000);
-  ShowImage(Kris_ImageInfo, KRIS_3, 0, 0, NO_FLIP_X,NO_FLIP_Y, NO_SWAP_XY, YES_FLIP_ALTERNATE);
-  delay(1000);
-  ShowImage(Kris_ImageInfo, KRIS_4, 0, 0, NO_FLIP_X,NO_FLIP_Y, NO_SWAP_XY, YES_FLIP_ALTERNATE);
-  delay(1000);
 }
 
 void MarioPwrup(){
